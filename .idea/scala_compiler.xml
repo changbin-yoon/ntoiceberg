@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="kafka-to-iceberg,untitled,untitled.main,untitled.test" />
+    <profile name="sbt 2" modules="kafka-to-iceberg.main,kafka-to-iceberg.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xlint:unused" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+      </parameters>
+    </profile>
+  </component>
+</project>
