@@ -45,6 +45,6 @@ build/
 
 ### Scala ###
 .bsp/
+.idea/
 
 .gitignore
-.idea/
